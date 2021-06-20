@@ -1,3 +1,10 @@
+<div>
+  <p>name：<%= @user.name %></p>
+  <p>introduction：<%= @user.introduction %></p>
+</div>
+
+<%= link_to "人＋歯車の編集", edit_user_path %>
+
 <h1>New book</h1>
 <% if @book.errors.any? %>
   <%= @book.errors.count %>件のエラーが発生しました
